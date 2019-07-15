@@ -25,7 +25,14 @@
 public class LearningGit {
 	
 	public static void main (String[] args) {
-		
+        
+		System.out.println( (new LearningGit() ).toString() );   
+	}
+    
+    
+    public String toString() {
+		return  "Hi,\n" +
+                "This is a little repo to learn how to use Git and GitHub. :D";
 	}
 }
 
